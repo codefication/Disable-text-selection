@@ -1,0 +1,21 @@
+body{
+	position: relative;
+	background-color: #FA5882;
+	background-image: url(bg.png);
+  color: #FFF;
+  padding: 5em;
+  text-align: center;
+}
+h1{
+  font-size: 4em;
+}
+p{
+  font-size: 1.5em;  
+}
+.disable-textselection {
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer */
+  -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
